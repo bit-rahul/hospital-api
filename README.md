@@ -1,5 +1,20 @@
 # hospital-api
-> A complete authentication app with login, logout, register, forget password, email verification(for added security), and access control. Can be used as starter for other Node.JS applications. using Node.js, Express, Passport, JWT, Mongoose, and more. 
+> The server side for a hospital (only APIs) for the doctors of a Hospital. May be used for testing reports management and quarantine + well being of COVID-19 patients.
+> There can be 2 types of Users
+  - Doctors
+  - Patients
+> Doctors can log in
+> For every patient visit, the doctor can:
+  - Register the patient in the app
+  - After the checkup, create a Report
+
+## Routes
+  - /doctors/register
+  - /doctors/login
+  - /patients/register
+  - /patients/:id/create_report
+  - /patients/:id/all_reports
+  - /reports/:status
 
 ## Technologies Used
 1.  NodeJS
