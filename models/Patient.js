@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const genders = ['M', 'F'];
 
+// Patient Schema
 const patientSchema = new mongoose.Schema({
     name: {
         type: String,

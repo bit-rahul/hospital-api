@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const statuss = ['Negative', 'Travelled-Quarantine', 'Symptoms-Quarantine', 'Positive-Admit']
 
+// Report Schema
 const reportSchema = new mongoose.Schema({
     created_by: {
         type: mongoose.Schema.Types.ObjectId,

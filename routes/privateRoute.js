@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
 
+// Protecting routes by authentication
 module.exports = function(req, res, next) {
     const token = req.header('authToken');
     if (!token) return res.status(401).send('You are not authorized!');
