@@ -3,8 +3,7 @@
 > There can be 2 types of Users
   - Doctors
   - Patients
-> Doctors can log in
-> For every patient visit, the doctor can:
+> Doctors can log in. For every patient visit, the doctor can:
   - Register the patient in the app
   - After the checkup, create a Report
 
